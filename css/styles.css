@@ -49,10 +49,15 @@ font-family: Roboto, sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-fond-color);
+    text-decoration: none;
        }
     .nav-link:hover{
      color:#404BBF;
        }
+    .nav-link:focus{
+        color:#404BBF;
+
+    }  
 
 /* contact-link */
 
@@ -87,9 +92,14 @@ font-family: Roboto, sans-serif;
     font-size: 16px;
     font-family: inherit;
     color: var(--text-white-color);
-    background-color: var(--accent-color);  
+    background-color: var(--accent-color); 
     }
-   
+    
+.poitner{
+    cursor: pointer;
+}
+
+
      /* Section */
 
         .list{
@@ -224,13 +234,12 @@ font-family: Roboto, sans-serif;
 
 
 .link-button{
-font-family: 'Roboto';
+font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
-line-height: 24px;
 background-color: #F4F4FD;
 color: #4D5AE5;
 border: 1px solid #E7E9FC;
@@ -241,7 +250,8 @@ border-radius: 4px;
    background-color:#404BBF;
 }
 .link-button:focus {
-    color: #404BBF;
+    color: #F4F4FD;
+    background-color:  #404BBF;
 }
 
 
